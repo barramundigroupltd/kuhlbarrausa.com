@@ -1,0 +1,57 @@
+/*
+ Theme Name:   Organic Life Child
+ Theme URI:    http://demo.themeum.com/wordpress/organic-life
+ Description:  Organic Life Child Theme
+ Author:       Themeum
+ Author URI:   http://themeum.com/
+ Template:     organic-life
+ Version:      2.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  themeum
+*/
+
+
+@import url("/wp-content/themes/organic-life/style.css");
+
+.white-text .box-content,
+.white-text .box-content .box-btn{
+	color: #FFF;
+}
+footer a{
+	color: #f05323 !important;
+}
+#main{
+	margin: 0 auto;
+}
+.box-content .box-btn{
+	border-color: #f05323;
+	color: #f05323;
+}
+.wpb_revslider_element{
+	margin-bottom: 0 !important;
+}
+#navigation a.navbar-brand h1{
+	padding: 5px 0 !important;
+}
+#main-menu .nav > li > a::before, #main-menu .nav > li.active > a::before{
+	background-color: transparent !important;
+}
+.wpcf7-form input[type="email"]{
+    border: 2px solid #fff;
+	color: #FFF !important;
+	min-height: 55px !important;
+	font-family: Raleway;
+}
+.wpcf7-form button[type="submit"]{
+    background:none !important;
+    color: #fff;
+    font-size: 20px;
+    outline: medium none;
+    padding: 10px 16px 8px 0;
+    position: absolute;
+    right: 10px;
+	top: 5px;
+}
+.wpcf7-formbutton[type="submit"]:hover{
+	color: #f05323;
+}
